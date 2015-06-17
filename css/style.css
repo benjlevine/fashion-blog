@@ -7,7 +7,7 @@ Developer @GA in NYC
 
 
 /******************************************
-/* SETUP                   
+/* SETUP	             
 /*******************************************/
 
 /* Box Model Hack */
@@ -77,32 +77,33 @@ nav a {
      border-bottom: #eee solid 2px;
 }
 h3 {
-     font-size: 2em;
-     line-height: 1em;
-     color: #ccc;
-     margin-top: 2em;
+	font-size: 2em;
+	line-height: 1em;
+	color: #ccc;
+	margin-top: 2em;
 }
 h2 {
-     font-size: 2em;
-     line-height: 1em;
-     margin: 0.5em 0;
+	font-weight: 400;
+	font-size: 2em;
+	line-height: 1em;
+	margin: 0.5em 0;
 }
 img {
-     width: 100%;
+	width: 100%;
 }
 p {
-     margin-top: 0.5em;
+	margin-top: 0.5em;
 }
 .dropcap {
-     font: 300 6em/0.833em Lato;
-     color: #ddd;
-     float: left;
-     padding-right: 0.1em;
-     margin-left: -0.1em;
+	font: 300 6em/0.833em Lato;
+	color: #ddd;
+	float: left;
+	padding-right: 0.1em;
+	margin-left: -0.1em;
 }
 h4 {
-     font: 700 1em/1em Lato;
-     color: #f30000;
-     margin-top: 1em;
-     text-align: right;
+	font: 700 1em/1em Lato;
+	color: #f30000;
+	margin-top: 1em;
+	text-align: right;
 }
