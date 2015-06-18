@@ -7,7 +7,7 @@ Developer @GA in NYC
 
 
 /******************************************
-/* SETUP	             
+/* SETUP		        
 /*******************************************/
 
 /* Box Model Hack */
@@ -45,9 +45,14 @@ Developer @GA in NYC
 /* BASE STYLES                   
 /*******************************************/
 
-body {
+html {
+     font-size: 112.5%;
+}
+	body {
+     font-weight: 300;
+     font-family: Lato, sans-serif;
+     line-height: 1.5em;
      color: #444;
-     font: 300 112.5%/1.5em Lato, sans-serif;
      padding:3.75em 3em;
      border-left: #ddd solid 0.333em;
 }
@@ -59,28 +64,9 @@ a {
 /* LAYOUT                   
 /*******************************************/
 h1 {
-     font-size: 3em;
-     line-height: 1em;
-     color: #f30000;
-}
-header h2 {
-     font-size: 1.5em;
-     line-height: 1em;
-     margin: 0.667em 0;
-}
-nav a {
-     font-size: 1.25em;
-     line-height: 1em;
-     color: #ccc;
-     padding-bottom: 0.125em;
-     margin-right: 0.75em;
-     border-bottom: #eee solid 2px;
-}
-h3 {
-	font-size: 2em;
+	font-size: 3em;
 	line-height: 1em;
-	color: #ccc;
-	margin-top: 2em;
+	color: #f30000;
 }
 h2 {
 	font-weight: 400;
@@ -88,22 +74,81 @@ h2 {
 	line-height: 1em;
 	margin: 0.5em 0;
 }
+header h2 {
+	font-size: 1.5em;
+	line-height: 1em;
+	margin: 1rem 0;
+}
+h2 a:hover {
+	color: #f30000;
+}
+nav a {
+	font-size: 1.25em;
+	line-height: 1em;
+	color: #ccc;
+	padding-bottom: 0.125em;
+	margin-right: 0.75em;
+	border-bottom: #eee solid 2px;
+}
+nav:hover a {
+	border-bottom: none;
+}
+nav a:hover {
+	border-bottom: #f30000 solid 2px;
+}
+h3 {
+	font-size: 2em;
+	line-height: 1em;
+	color: #ccc;
+	margin-top: 2em;
+}
 img {
 	width: 100%;
 }
 p {
 	margin-top: 0.5em;
 }
-.dropcap {
+/*.dropcap {
+	font: 300 6em/0.833em Lato;
+	color: #ddd;
+	float: left;
+	padding-right: 0.1em;
+	margin-left: -0.1em;
+}*/
+h4 {
+	font: 700 1em/1em Lato;
+	color: #f30000;
+	margin-top: 1em;
+	text-align: right;
+}
+h4 a {
+	padding-bottom: 0.125em;
+}
+h4 a:hover {
+	border-bottom: #f30000 solid 2px;
+}
+article p:first-of-type:first-letter { 
 	font: 300 6em/0.833em Lato;
 	color: #ddd;
 	float: left;
 	padding-right: 0.1em;
 	margin-left: -0.1em;
 }
-h4 {
-	font: 700 1em/1em Lato;
+article {
+	padding-bottom: 1.5em;
+	border-bottom: #ccc solid 1px;
+}
+footer {
+	margin-top: 3em;
+}
+footer p {
+	color: #ccc;
+	padding-bottom: 1em;
+}
+footer a {
 	color: #f30000;
-	margin-top: 1em;
-	text-align: right;
+	padding-bottom: 0.125em;
+}
+footer a:hover {
+	border-bottom: #f30000 solid 2px;
 }
