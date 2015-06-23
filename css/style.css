@@ -48,16 +48,13 @@ Developer @GA in NYC
 html {
 	font-size: 112.5%;
 	border-left: #ddd solid 0.333em;
+	color: #444;
 }
 
 body {
 	font-weight: 300;
-	font-family: Lato, sans-serif;
 	line-height: 1.5em;
-	color: #444;
-}
-
-div {
+	font-family: Lato, sans-serif;
 	max-width: 62em;
 	padding: 4em 1em;
 	margin: 0 auto;
